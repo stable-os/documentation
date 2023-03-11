@@ -18,8 +18,8 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'stable-os', // Usually your GitHub org/user name.
+    projectName: 'documentation', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -64,21 +64,21 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'My Site',
+                title: 'Documentation',
                 logo: {
-                    alt: 'My Site Logo',
-                    src: 'img/logo.svg',
+                    alt: 'Stable OS Logo',
+                    src: 'img/stable_os_logo.png',
                 },
                 items: [
                     {
                         type: 'doc',
-                        docId: 'intro',
+                        docId: 'flags',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Flags',
                     },
                     { to: '/blog', label: 'Blog', position: 'left' },
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/stable-os',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -91,7 +91,7 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
+                                label: 'Introduction',
                                 to: '/docs/intro',
                             },
                         ],
@@ -100,17 +100,9 @@ const config = {
                         title: 'Community',
                         items: [
                             {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
-                            },
+                                label: '¯\\_(ツ)_/¯',
+                                href: 'https://github.com/stable-os',
+                            }
                         ],
                     },
                     {
@@ -122,12 +114,12 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/stable-os',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `${new Date().getFullYear()} Stable OS. Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,
